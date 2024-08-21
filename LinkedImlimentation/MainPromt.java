@@ -24,9 +24,24 @@ public class MainPromt {
         list.insertLast(c8);
         list.insertLast(c9);
         list.insertLast(c10);
-        System.out.println("\n------Part(a)--------------------------------------------------------------------------");
-        System.out.println("\nAccount Number\t"+"Customer Name\t\t"+"Account Type\t"+"Account Balance(as of 2024.01.01)");
+        System.out.println("\n*****************************Part(a)****************************************************");
+        System.out.println("------------------------------------------------------------------------------------------");
+        System.out.println("Account Number\t"+"Customer Name\t\t"+"Account Type\t"+"Account Balance(as of 2024.01.01)");
+        System.out.println("------------------------------------------------------------------------------------------");
         list.traverseList();
+        System.out.println("------------------------------------------------------------------------------------------");
+
+        list.serching();
+        System.out.println("--------------------------------");
+
+        //list.replaceList(2, c10);
+        //list.traverseList();
+        
+        System.out.println("------------------------");
+        list.printinterestAmount();
+
+        System.out.println("===================");
+        list.totalAccountBalance();
 
         /*System.out.println("\n------Part(b)--------------------------------------------------------------------------");
         System.out.println("\nAccount Number\t"+"Customer Name\t\t"+"Interest Amount");
